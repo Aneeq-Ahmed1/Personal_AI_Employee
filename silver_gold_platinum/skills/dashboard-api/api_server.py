@@ -108,6 +108,8 @@ app.add_middleware(
         "http://localhost:3000",
         "http://127.0.0.1:3000",
         "http://localhost:8080",
+        "https://personal-ai-employee.vercel.app",  # Vercel production
+        os.getenv("FRONTEND_URL", ""),  # Custom frontend URL from env
     ],
     allow_credentials=True,
     allow_methods=["*"],
