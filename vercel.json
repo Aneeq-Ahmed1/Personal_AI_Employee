@@ -1,15 +1,6 @@
 {
   "buildCommand": "cd dashboard && npm install && npm run build",
   "outputDirectory": "dashboard/.next",
-  "devCommand": "cd dashboard && npm run dev",
   "installCommand": "cd dashboard && npm install",
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "http://YOUR_BACKEND_URL:8000/api/$1"
-    }
-  ],
-  "env": {
-    "NEXT_PUBLIC_API_URL": "http://YOUR_BACKEND_URL:8000"
-  }
+  "framework": "nextjs"
 }
