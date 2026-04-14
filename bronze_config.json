@@ -1,0 +1,18 @@
+{
+  "pipelines": [
+    {
+      "name": "default_csv_pipeline",
+      "source_path": "../sample_data/input.csv",
+      "destination_path": "../raw_data/output.csv",
+      "file_format": "csv",
+      "batch_name": "daily_batch"
+    },
+    {
+      "name": "sales_data_pipeline",
+      "source_path": "../sample_data/sales.csv",
+      "destination_path": "../raw_data/sales_output.csv",
+      "file_format": "csv",
+      "batch_name": "sales_batch"
+    }
+  ]
+}

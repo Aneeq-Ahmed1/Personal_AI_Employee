@@ -1,0 +1,8 @@
+# SMS/WhatsApp Send Skill Requirements
+# Install with: pip install -r requirements.txt
+
+# Twilio SDK
+twilio==8.11.0
+
+# Environment variables
+python-dotenv==1.0.0

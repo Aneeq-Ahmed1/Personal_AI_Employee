@@ -1,0 +1,75 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Environment & Secrets (CRITICAL - Hide from GitHub)
+.env
+*.env
+.env.local
+.env.production
+credentials.json
+token.pickle
+*.pem
+*.key
+
+# Browser Automation Profiles
+vault/Chrome_Profile/
+whatsapp_session/
+silver_gold_platinum/vault/Chrome_Profile/
+silver_gold_platinum/whatsapp_session/
+silver_gold_platinum/watchers/whatsapp_session/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Node.js (Dashboard)
+dashboard/node_modules/
+dashboard/.next/
+dashboard/out/
+dashboard/npm-debug.log*
+dashboard/yarn-debug.log*
+dashboard/yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache
+.npm
+
+# Pickle files (Gmail/WhatsApp tokens)
+*.pickle
+*.pkl
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Test & Debug files (Keep only production code)
+test_*.py
+debug_*.py
+*_test.py
+
+# Obsidian (Vault can be large, optional to commit)
+.obsidian/workspace*
+.obsidian/app-state.json
+
+# Vault data (optional - can be large)
+vault/**/*.log
+silver_gold_platinum/vault/**/*.log

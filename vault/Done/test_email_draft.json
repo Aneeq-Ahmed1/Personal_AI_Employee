@@ -1,0 +1,23 @@
+{
+  "type": "email_draft",
+  "original_email": {
+    "subject": "Test Email - Platinum Tier Setup",
+    "from": "test@example.com",
+    "date": "2026-04-05T22:00:32.841422"
+  },
+  "draft_reply": {
+    "to": "test@example.com",
+    "subject": "Re: Test Email - Platinum Tier Setup",
+    "body": "This is a test draft reply from the Platinum Tier system.",
+    "attachments": []
+  },
+  "created_at": "2026-04-05T22:00:32.841432",
+  "created_by": "platinum_setup_script",
+  "status": "completed",
+  "assigned_to": "cloud",
+  "risk_level": "low",
+  "approved_at": "2026-04-05T22:08:28.047121",
+  "approved_by": "local_auto",
+  "executed": true,
+  "executed_at": "2026-04-05T22:08:28.077549"
+}

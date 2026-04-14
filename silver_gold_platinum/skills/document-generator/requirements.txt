@@ -1,0 +1,9 @@
+# Document Generator Skill Requirements
+# Install with: pip install -r requirements.txt
+
+# Environment variables
+python-dotenv==1.0.0
+
+# PDF export (optional)
+# md2pdf==1.0.0
+# weasyprint==60.1

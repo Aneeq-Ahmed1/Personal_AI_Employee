@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "created_at": "2026-04-05T22:00:32.839486",
+  "rules": {
+    "never_sync_files": [
+      ".env",
+      "token.pickle",
+      "credentials.json",
+      "whatsapp_session",
+      "*.key",
+      "*.pem",
+      "*.secret",
+      "chrome_cookies.json",
+      "*.log"
+    ],
+    "allowed_sync_extensions": [
+      ".md",
+      ".json",
+      ".txt",
+      ".yaml",
+      ".yml"
+    ],
+    "cloud_restrictions": {
+      "can_draft": true,
+      "can_send_emails": false,
+      "can_post_social": false,
+      "can_send_whatsapp": false,
+      "can_execute_payments": false,
+      "writes_to": [
+        "/Updates/",
+        "/Signals/"
+      ]
+    },
+    "local_permissions": {
+      "can_draft": true,
+      "can_send_emails": true,
+      "can_post_social": true,
+      "can_send_whatsapp": true,
+      "can_execute_payments": true,
+      "owns_dashboard_md": true
+    },
+    "claim_by_move_rule": {
+      "description": "First agent to move from Needs_Action to In_Progress/<agent>/ owns the task",
+      "single_writer": true,
+      "audit_required": true
+    }
+  }
+}
